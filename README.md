@@ -56,6 +56,8 @@ bash install.sh
 4. TronGrid API Key（可选，留空也能用）
 5. 客服用户名（可选）
 
+---
+
 ### 步骤七：验证启动
 
 ```bash
