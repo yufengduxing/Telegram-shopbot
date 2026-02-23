@@ -49,12 +49,6 @@ bash install.sh
 
 ```
 
-菜单：
-```bash
-echo "alias bot='bash /www/wwwroot/根目录/install.sh'" >> ~/.bashrc && source ~/.bashrc
-
----
-
 脚本会引导你输入：
 1. Bot Token（从 @BotFather 获取）
 2. 管理员 Telegram 数字 ID（从 @userinfobot 获取）
@@ -72,6 +66,12 @@ supervisorctl status tg_shop_bot
 看到 `RUNNING` 表示成功。
 
 ---
+
+菜单：
+
+```bash
+echo "alias bot='bash /www/wwwroot/根目录/install.sh'" >> ~/.bashrc && source ~/.bashrc
+```
 
 ## 查看日志
 
