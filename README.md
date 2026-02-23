@@ -26,6 +26,10 @@
 cd /root/TG-Bot-Fixed
 chmod +x install.sh
 bash install.sh
+
+菜单：
+echo "alias bot='bash /www/wwwroot/根目录/install.sh'" >> ~/.bashrc && source ~/.bashrc
+
 ```
 
 脚本会引导你输入：
